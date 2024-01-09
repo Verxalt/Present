@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&family=Poppins:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #070707;
+}
+
+.kata-kata {
+    max-width: 768px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.kata-kata a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}

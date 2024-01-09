@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ###### */
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&family=Poppins:wght@600&display=swap');
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0090FF;
+    /*
+    background-image: url("/img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+}
+
+.container {
+    max-width: 500px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.container .quote {
+    width: 100vw;
+    position: fixed;
+    bottom: 20px;
+}
+
+marquee {
+    color: #0090FF;
+}
+
+marquee a {
+    text-decoration: none;
+}
+
+.container .box {
+    width: 100%;
+    flex-grow: 1;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box .judul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box .judul a {
+    text-decoration: none;
+    color: #0090FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.container .box .content {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    background-color: #1f1f1f;
+}
+
+
+.content h1 {
+    font-size: 20qpx;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0090FF;
+}
+
+.content ul li {
+    margin-bottom: 6px;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #00528b;
+    font-size: 13px;
+    transition: .5s;
+}
+
+.content ul li a:hover {
+    color: #0090FF;
+    font-size: 15px;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&family=Poppins:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    color: #151515;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-height: 768px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    padding: 10px 10px 15px 10px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.box span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+input {
+    display: none;
+}
+
+#hidden {
+    display: none;
+}
+
+#check:checked~.container #hidden {
+    display: block;
+}
+
+.container label {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+/* Next Button */
+
+.container .box #link {
+    text-decoration: none;
+    background-color: #151515;
+    box-shadow: 1px 1px 5px #151515;
+    color: #f0f0f0;
+    padding: 4px 7px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.container .box a {
+    text-decoration: none;
+    color: #000000;
+}
